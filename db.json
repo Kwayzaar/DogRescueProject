@@ -1,0 +1,34 @@
+{
+  "dogs": [
+    {
+      "id": 1,
+      "name": "Scarlet Thunder",
+      "image": "https://static.wikia.nocookie.net/jurassicworld-evolution/images/2/28/648350_screenshots_20190711103904_1.jpg/revision/latest/top-crop/width/360/height/450?cb=20200526042521",
+      "feedings": 8
+    },
+    {
+      "id": 2,
+      "name": "Mordecai Levidius III",
+      "image": "https://images.pexels.com/photos/1011630/pexels-photo-1011630.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "feedings": 15
+    },
+    {
+      "id": 3,
+      "name": "Frank",
+      "image": "https://i.ytimg.com/vi/0vGBSUjQDzo/maxresdefault.jpg",
+      "feedings": 4
+    },
+    {
+      "name": "Grognak the Destroyer",
+      "image": "https://media.gettyimages.com/photos/goat-picture-id165847424?s=612x612",
+      "feedings": 0,
+      "id": 4
+    },
+    {
+      "name": "Willhelm",
+      "image": "https://cdn.vox-cdn.com/thumbor/zrevOOl4lMkKZx1SlMGpLFkPtvQ=/0x79:1200x679/fit-in/1200x600/cdn.vox-cdn.com/uploads/chorus_asset/file/13265553/cool_goat_2.jpg",
+      "feedings": 0,
+      "id": 5
+    }
+  ]
+}
