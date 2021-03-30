@@ -1,8 +1,6 @@
-const baseURL = "https://dog.ceo/api/breed/hound/images";
+const dawgURL = " http://localhost:3000/dawgs";
+const dogSection = document.querySelector(".card-section");
 
-fetch(baseURL)
+fetch(dawgURL)
   .then((response) => response.json())
-  .then((dogData) => {
-    const dogCard = dogData.message[];
-    console.log(dogCard);
-  });
+  .then();

@@ -1,34 +1,67 @@
 {
-  "dogs": [
+  "dawgs": [
     {
       "id": 1,
-      "name": "Scarlet Thunder",
-      "image": "https://static.wikia.nocookie.net/jurassicworld-evolution/images/2/28/648350_screenshots_20190711103904_1.jpg/revision/latest/top-crop/width/360/height/450?cb=20200526042521",
-      "feedings": 8
+      "name": "Scarlet",
+      "image": "https://images.dog.ceo/breeds/hound-basset/n02088238_9787.jpg",
+      "age": "4 Months",
+      "breed": "Basset Hound",
+      "sex": "Female"
     },
     {
       "id": 2,
-      "name": "Mordecai Levidius III",
-      "image": "https://images.pexels.com/photos/1011630/pexels-photo-1011630.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "feedings": 15
+      "name": "Remy",
+      "image": "https://bloximages.newyork1.vip.townnews.com/thepilot.com/content/tncms/assets/v3/editorial/b/e0/be0fae76-b406-11e7-ab6e-a7a4c3f3fed4/59e7548f4c53c.image.png?resize=455%2C498",
+      "age": "4 Months",
+      "breed": "Pitbull",
+      "sex": "Male"
     },
     {
       "id": 3,
       "name": "Frank",
+      "image": "https://dogs.lovetoknow.com/image/268758~bernese-mountain-dog-complete-breed-care-guide.jpg",
+      "age": "2 Years",
+      "breed": "Bernese Mountain Dog",
+      "sex": "Male"
+    },
+    {
+      "id": 4,
+      "name": "Marley",
       "image": "https://i.ytimg.com/vi/0vGBSUjQDzo/maxresdefault.jpg",
-      "feedings": 4
+      "age": "4 Months",
+      "breed": "Belgian Malinois",
+      "sex": "Female"
     },
     {
-      "name": "Grognak the Destroyer",
-      "image": "https://media.gettyimages.com/photos/goat-picture-id165847424?s=612x612",
-      "feedings": 0,
-      "id": 4
+      "id": 5,
+      "name": "Balto",
+      "image": "https://i.imgur.com/TMDxTPz.jpg",
+      "age": "9 Years",
+      "breed": "Husky",
+      "sex": "Male"
     },
     {
-      "name": "Willhelm",
-      "image": "https://cdn.vox-cdn.com/thumbor/zrevOOl4lMkKZx1SlMGpLFkPtvQ=/0x79:1200x679/fit-in/1200x600/cdn.vox-cdn.com/uploads/chorus_asset/file/13265553/cool_goat_2.jpg",
-      "feedings": 0,
-      "id": 5
+      "id": 6,
+      "name": "Buddy",
+      "image": "https://www.gannett-cdn.com/presto/2020/02/03/PROC/23928de8-75f4-4cbd-aa93-a6f68ad330f7-20200201-_MS_0622.jpg?width=1320&height=880&fit=crop&format=pjpg&auto=webp",
+      "age": "4 Years",
+      "breed": "Golden Retriever",
+      "sex": "Male"
+    },
+    {
+      "id": 7,
+      "name": "Daisy",
+      "image": "https://i.pinimg.com/originals/1d/f4/3b/1df43bb9a2e81c3ea30374a764508a7c.jpg",
+      "age": "4 Months",
+      "breed": "Labrador Retriever",
+      "sex": "Female"
+    },
+    {
+      "id": 8,
+      "name": "Stich",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.popsugar.com%2Fpets%2FCute-Pictures-German-Shepherd-Puppies-46469982&psig=AOvVaw1_vKiyop05Q5mdFSnx9h2Q&ust=1617224214315000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDP7enz2O8CFQAAAAAdAAAAABAD",
+      "age": "4 Months",
+      "breed": "German Shepard"
     }
   ]
 }
