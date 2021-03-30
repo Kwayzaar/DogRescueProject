@@ -47,6 +47,11 @@ table {
 	border-spacing: 0;
 }
 
+
+.navContainer {
+    padding: 40px, 0px;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #0fc690;
