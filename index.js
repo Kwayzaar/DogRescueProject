@@ -1,15 +1,16 @@
-const dawgURL = "http://localhost:3000/dawgs/";
+const dawgURL = " http://localhost:3000/dawgs";
 
 const dogSection = document.querySelector(".cards");
-
+const dogContainer = document.querySelector(".card-container");
 
 fetch(dawgURL)
-  .then(response => response.json())
-  .then(console.log)
-  .then(dawgArray => {
+  .then((response) => response.json())
+  .then((dawgArray) => {
     dawgArray.forEach((dawgImg) => {
       const li = document.createElement("img");
-      img.src = dawgImg.image;
+      li.src = dawgImg.image;
       dogSection.append(li);
-    })
+    });
+
+    document.
   });
