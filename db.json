@@ -27,7 +27,7 @@
     {
       "id": 4,
       "name": "Marley",
-      "image": "https://www.nylabone.com/-/media/Images/Nylabone-NA/US/Dog101/Breeds-A-Z/belgian-malinois.jpg",
+      "image": "https://cdn.akc.org/Marketplace/Breeds/Belgian_Malinois_SERP.jpg",
       "age": "4 Months",
       "breed": "Belgian Malinois",
       "sex": "Female"
@@ -61,7 +61,8 @@
       "name": "Stich",
       "image": "https://1.bp.blogspot.com/-zAGKneIHj44/XM3mUZSfy1I/AAAAAAAAEks/STAZREOodBUPtGaYvTEY0xVDjGMusVRLACLcBGAs/s1600/How%2BTo%2Bidentify%2BGerman-shepherd-puppies.jpg",
       "age": "4 Months",
-      "breed": "German Shepard"
+      "breed": "German Shepard",
+      "sex": "Male"
     }
   ]
 }
