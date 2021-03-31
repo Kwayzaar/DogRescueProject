@@ -128,15 +128,42 @@ table {
   border-spacing: 0;
 }
 
+/* Code Start  */
+
+body#main-layout {
+  color: #666666;
+  font-size: 14px;
+  font-family: "poppins", sans-serif;
+  line-height: 1.80857;
+  font-weight: normal;
+  overflow-x: hidden;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.header {
+  background: #0fc690;
+  padding: 40px 0px;
+  padding-bottom: 35px;
+}
+
+.navContainer {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #0fc690;
   overflow: hidden;
   display: flex;
+  width: 100%;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: right;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -150,7 +177,11 @@ table {
   color: black;
 }
 
+#menuBar {
+}
+
 /* Add a color to the active/current link */
+/* may remove */
 .topnav a.active {
   background-color: #4caf50;
   color: white;
