@@ -31,7 +31,7 @@ fetch(dawgURL)
   window.onscroll = function() {navStick()};
 
 // Sticky Navbar
-const navbar = document.querySelector(".header");
+const navbar = document.querySelector(".test");
 const sticky = navbar.offsetTop;
 
 function navStick() {
