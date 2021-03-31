@@ -63,6 +63,14 @@
       "age": "4 Months",
       "breed": "German Shepard",
       "sex": "Male"
+    },
+    {
+      "id": 9, //new dog
+      "name": "Zeus",
+      "image": "https://barkpost.com/wp-content/uploads/2016/06/rottie-how-you-doin.jpg",
+      "age": "3 Years",
+      "breed": "Rottweiler",
+      "sex": "Male"
     }
   ]
 }
