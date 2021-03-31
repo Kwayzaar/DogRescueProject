@@ -213,6 +213,7 @@ img {
   flex-flow: row wrap;
   margin: 1rem;
   padding: 1rem;
+  justify-content: center;
 }
 
 .card-container div {
@@ -240,10 +241,13 @@ div.titles {
 .linked-names {
   color: black;
   text-decoration: none;
+  font-size: 20px;
 }
 .linkedin img {
   height: 80px;
   width: 80px;
-  object-fit: cover;
-  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  /* object-fit: cover; */
+  /* flex-wrap: wrap; */
 }
