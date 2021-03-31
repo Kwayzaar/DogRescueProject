@@ -1,27 +1,10 @@
 const dawgURL = " http://localhost:3000/dawgs";
-<<<<<<< HEAD
-
-const dogSection = document.querySelector(".cards");
-const dogContainer = document.querySelector(".card-container");
-=======
 const dawgSection = document.querySelector(".cards");
 const dawgContainer = document.querySelector(".card-container");
->>>>>>> 517b85cfe8444f95697bba19e479c5f9acadfaf5
 
 fetch(dawgURL)
   .then((response) => response.json())
   .then((dawgArray) => {
-<<<<<<< HEAD
-    
-    dawgArray.forEach((dawgArray) => {
-
-      const li = document.createElement("img");
-      li.src = dawgArray.image;
-      dogSection.append(li);
-    });    
-    
-  });
-=======
     dawgArray.forEach((dawgs) => {
       //getting images on the page
       const dawgCard = document.createElement("div");
@@ -45,4 +28,3 @@ fetch(dawgURL)
       dawgContainer.append(dawgCard);
     });
   });
->>>>>>> 517b85cfe8444f95697bba19e479c5f9acadfaf5
