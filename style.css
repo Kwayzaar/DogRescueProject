@@ -63,6 +63,20 @@ body#main-layout {
   height: 100%;
 }
 
+/* Styling section titles */
+div.titles {
+	padding: 0px 0px 6px 0px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #050303;
+	line-height: 46px;
+	border-bottom: #0fc690 solid 1px;
+	width: 360px;
+	margin: 0 auto;
+}
+
+
+/* Header styling */
 .intro {
   height: 50px;
 }
@@ -71,7 +85,6 @@ div.main-container {
   padding-left: auto;
   padding-right: auto;
 }
-
 
 .header {
 	height: 100px;
@@ -91,7 +104,7 @@ div.main-container {
 #navContainer {
 	background: #0fc690;
 	width: 100%;
-	padding: 40px 15px 35px 15px;
+	padding: 20px 15px;
 	margin-right: auto;
 	margin-left: auto;
 	justify-content: center; 
@@ -108,6 +121,7 @@ div.main-container {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  border
 }
 
 /* Change the color of links on hover */
@@ -117,9 +131,6 @@ div.main-container {
 }
 
 /* Add a color to active/current link */
-#pet-care {
-  text-align: center;
-}
 #menuBar a.active {
   background-color: #4caf50;
   color: white;
@@ -148,30 +159,38 @@ img {
 }
 
 /* styling pet care section  */
+#pet-care, #get-involved, #contact-us, #our-litter {
+	text-align: center;
+}
+
 div#pet-care {
   background: #f4f4f4;
   width: 100%;
   height: 100px;
 }
 
-div.titles {
-  padding: 0px 0px 6px 0px;
-  font-size: 40px;
-  font-weight: bold;
-  color: #050303;
-  line-height: 46px;
-  border-bottom: #0fc690 solid 1px;
-  width: 210px;
-  margin: 0 auto;
-}
 /* Footer edits*/
 .linked-names {
   color: black;
   text-decoration: none;
+  font-size: 20px;
+  flex-wrap: wrap;
 }
+
+.linkedin{
+	width:100%;
+	flex-direction:row;
+}
+
 .linkedin img {
   height: 80px;
   width: 80px;
   object-fit: cover;
-  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+
+footer {
+	width: 100%;
 }
