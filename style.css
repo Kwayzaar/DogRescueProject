@@ -24,17 +24,8 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	}
 /* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,
+nav, section {
   display: block;
 }
 body {
@@ -127,15 +118,7 @@ div.main-container {
 	color: white;
 }
 
-.linkedin img {
-  height: 80px;
-  width: 80px;
-  object-fit: cover;
-  flex-wrap: wrap;
-}
-
 /* styling our litter section  */
-
 div#our-litter {
 	padding-top: 120px;
 }
