@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+	v2.0 | 20110126
+	License: none (public domain)
 */
 
 html,
@@ -137,6 +137,11 @@ body#main-layout {
   line-height: 1.80857;
   font-weight: normal;
   overflow-x: hidden;
+  height: 100%;
+}
+
+.intro {
+  height: 50px;
 }
 
 div.main-container {
@@ -144,30 +149,38 @@ div.main-container {
   padding-right: auto;
 }
 
+/* setting background color of navbar */
 .header {
   background: #0fc690;
   padding: 40px 0px;
   padding-bottom: 35px;
 }
 
-.navContainer {
+/* sticky navbar */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* styling the navbar */
+#navContainer {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
-
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #0fc690;
-  overflow: hidden;
-  display: flex;
-  width: 100%;
   justify-content: center;
 }
+#menuBar {
+  text-align: center;
+}
+
 /* Style the links inside the navigation bar */
-.topnav a {
+#menuBar a {
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -176,27 +189,20 @@ div.main-container {
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+#menuBar a:hover {
   background-color: #ddd;
   color: black;
 }
 
-#menuBar {
+/* Add a color to active/current link */
+#pet-care {
+  text-align: center;
 }
-
-/* Add a color to the active/current link */
-/* may remove */
-.topnav a.active {
+#menuBar a.active {
   background-color: #4caf50;
   color: white;
 }
 
-.linkedin img {
-  height: 80px;
-  width: 80px;
-  object-fit: cover;
-  flex-wrap: wrap;
-}
 img {
   height: 300px;
   width: 300px;
@@ -204,20 +210,20 @@ img {
 }
 .card-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-flow: row wrap;
+  margin: 1rem;
+  padding: 1rem;
 }
+
 .card-container div {
   margin: 1rem;
   padding: 1rem;
 }
 
-h2 {
-  text-align: center;
-}
-
-div.pet-care {
+div#pet-care {
   background: #f4f4f4;
+  width: 100%;
+  height: 100px;
 }
 
 div.titles {
@@ -229,4 +235,15 @@ div.titles {
   border-bottom: #0fc690 solid 1px;
   width: 210px;
   margin: 0 auto;
+}
+/* Footer edits*/
+.linked-names {
+  color: black;
+  text-decoration: none;
+}
+.linkedin img {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  flex-wrap: wrap;
 }
