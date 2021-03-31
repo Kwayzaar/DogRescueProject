@@ -27,3 +27,16 @@ fetch(dawgURL)
       dawgContainer.append(dawgCard);
     });
   });
+
+
+// Sticky Navbar
+const navbar = document.getElementById("navContainer");
+const sticky = navbar.offsetTop;
+
+function navStick() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}

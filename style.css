@@ -56,6 +56,7 @@ body#main-layout {
     line-height: 1.80857;
     font-weight: normal;
     overflow-x: hidden;
+	height: 100%
 }
 
 div.main-container {
@@ -63,27 +64,27 @@ div.main-container {
 	padding-right: auto;
 }
 
+/* setting background color of navbar */
 .header {
   background: #0fc690;
   padding: 40px 0px;
   padding-bottom: 35px;
 }
 
-.navContainer {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #0fc690;
-  overflow: hidden;
-  display: flex;
-  width: 100%;
+.navContainer {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
 }
+
 /* Style the links inside the navigation bar */
 .topnav a {
   color: #f2f2f2;
@@ -117,14 +118,8 @@ img {
 .card-container {
   display: flex;
   flex-wrap: wrap;
-}
-.card-container div {
   margin: 1rem;
   padding: 1rem;
-}
-
-h2 {
-  text-align: center;
 }
 
 div.pet-care {
