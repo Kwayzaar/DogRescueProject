@@ -10,34 +10,38 @@ fetch(dawgURL)
 
       const dawgName = document.createElement("h3"); //makes header for name
       dawgName.textContent = dawgs.name;
+      dawgName.setAttribute("class", "java-dawg");
 
       const dawgImg = document.createElement("img");
       dawgImg.src = dawgs.image;
 
       const dawgBreed = document.createElement("p");
       dawgBreed.textContent = dawgs.breed;
+      dawgBreed.setAttribute("class", "java-dawg");
 
       const dawgSex = document.createElement("p");
       dawgSex.textContent = dawgs.sex;
+      dawgSex.setAttribute("class", "java-dawg");
 
       const dawgAge = document.createElement("p");
       dawgAge.textContent = dawgs.age;
+      dawgAge.setAttribute("class", "java-dawg");
 
       dawgCard.append(dawgName, dawgImg, dawgBreed, dawgAge, dawgSex);
       dawgContainer.append(dawgCard);
     });
-    window.onscroll = function() {myFunction()};
   });
-
+window.onscroll = function () {
+  navStick();
+};
 
 // Sticky Navbar
-
-const navbar = document.querySelector("#menuBar");
+const navbar = document.querySelector(".test");
 const sticky = navbar.offsetTop;
 
 function navStick() {
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+    navbar.classList.add("sticky");
   } else {
     navbar.classList.remove("sticky");
   }
