@@ -6,10 +6,9 @@ fetch(dawgURL)
   .then((response) => response.json())
   .then((dawgArray) => {
     dawgArray.forEach((dawgs) => {
-      //getting images on the page
-      const dawgCard = document.createElement("div");
+      const dawgCard = document.createElement("div"); //makes dog card
 
-      const dawgName = document.createElement("h2");
+      const dawgName = document.createElement("h3"); //makes header for name
       dawgName.textContent = dawgs.name;
 
       const dawgImg = document.createElement("img");
