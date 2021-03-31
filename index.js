@@ -26,4 +26,19 @@ fetch(dawgURL)
       dawgCard.append(dawgName, dawgImg, dawgBreed, dawgAge, dawgSex);
       dawgContainer.append(dawgCard);
     });
+    window.onscroll = function() {myFunction()};
   });
+
+
+// Sticky Navbar
+
+const navbar = document.querySelector("#menuBar");
+const sticky = navbar.offsetTop;
+
+function navStick() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
