@@ -135,6 +135,8 @@ div.main-container {
   object-fit: cover;
   flex-wrap: wrap;
 }
+
+/* styling our litter section  */
 img {
 	height: 300px;
 	width: 300px;
@@ -154,6 +156,7 @@ img {
 	padding: 1rem;
 }
 
+/* styling pet care section  */
 div#pet-care {
 	background: #f4f4f4;
 	width: 100%;
