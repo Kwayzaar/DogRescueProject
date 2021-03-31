@@ -26,9 +26,9 @@ fetch(dawgURL)
       dawgCard.append(dawgName, dawgImg, dawgBreed, dawgAge, dawgSex);
       dawgContainer.append(dawgCard);
     });
-    window.onscroll = function() {navStick()};
+   
   });
-
+  window.onscroll = function() {navStick()};
 
 // Sticky Navbar
 const navbar = document.querySelector(".header");
