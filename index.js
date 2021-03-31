@@ -6,11 +6,12 @@ const dogContainer = document.querySelector(".card-container");
 fetch(dawgURL)
   .then((response) => response.json())
   .then((dawgArray) => {
-    dawgArray.forEach((dawgImg) => {
-      const li = document.createElement("img");
-      li.src = dawgImg.image;
-      dogSection.append(li);
-    });
+    
+    dawgArray.forEach((dawgArray) => {
 
-    document.
+      const li = document.createElement("img");
+      li.src = dawgArray.image;
+      dogSection.append(li);
+    });    
+    
   });

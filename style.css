@@ -79,3 +79,19 @@ color: black;
 background-color: #4CAF50;
 color: white;
 }
+
+.cards {
+	display:flex;
+	flex-wrap: wrap;
+	width: 60%
+}
+
+.dog-cards {
+	width: 5%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-container img {
+	height: 200px;
+}
