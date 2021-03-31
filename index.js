@@ -7,6 +7,7 @@ fetch(dawgURL)
   .then((dawgArray) => {
     dawgArray.forEach((dawgs) => {
       const dawgCard = document.createElement("div"); //makes dog card
+      dawgCard.setAttribute("class", "dawg-card")
 
       const dawgName = document.createElement("h3"); //makes header for name
       dawgName.textContent = dawgs.name;

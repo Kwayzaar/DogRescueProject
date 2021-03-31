@@ -75,6 +75,9 @@ div.titles {
 	margin: 0 auto;
 }
 
+#pet-care, #get-involved, #contact-us, #our-litter {
+	text-align: center;
+}
 
 /* Header styling */
 .intro {
@@ -116,12 +119,14 @@ div.main-container {
 
 /* Style the links inside the navigation bar */
 #menuBar a {
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  border
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	border-style: solid;
+	border-width: thin;
+	border-color: white;
 }
 
 /* Change the color of links on hover */
@@ -159,9 +164,6 @@ img {
 }
 
 /* styling pet care section  */
-#pet-care, #get-involved, #contact-us, #our-litter {
-	text-align: center;
-}
 
 div#pet-care {
   background: #f4f4f4;
@@ -190,6 +192,10 @@ div#pet-care {
   justify-content: center;
   /* flex-wrap: wrap; */
 }
+
+a:link {
+	text-decoration: none;
+  }
 
 footer {
 	width: 100%;
