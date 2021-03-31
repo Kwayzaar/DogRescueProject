@@ -81,11 +81,11 @@ div.main-container {
 	top: 0;
 	width: 100%;
 }
-
 .sticky + .content {
 	padding-top: 60px;
 }
 
+/* styling the navbar */
 #navContainer {
 	width: 100%;
 	padding-right: 15px;
@@ -123,10 +123,12 @@ img {
 }
 .card-container {
 	display: flex;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
 	margin: 1rem;
 	padding: 1rem;
 }
+
+
 
 div#pet-care {
 	background: #f4f4f4;
