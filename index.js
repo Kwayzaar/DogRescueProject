@@ -26,11 +26,13 @@ fetch(dawgURL)
       dawgCard.append(dawgName, dawgImg, dawgBreed, dawgAge, dawgSex);
       dawgContainer.append(dawgCard);
     });
+    window.onscroll = function() {myFunction()};
   });
 
 
 // Sticky Navbar
-const navbar = document.getElementById("navContainer");
+
+const navbar = document.querySelector("#menuBar");
 const sticky = navbar.offsetTop;
 
 function navStick() {

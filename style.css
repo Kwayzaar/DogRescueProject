@@ -59,6 +59,10 @@ body#main-layout {
 	height: 100%
 }
 
+.intro{
+	height:50px;
+}
+
 div.main-container {
 	padding-left: auto;
 	padding-right: auto;
@@ -66,48 +70,50 @@ div.main-container {
 
 /* setting background color of navbar */
 .header {
-  background: #0fc690;
-  padding: 40px 0px;
-  padding-bottom: 35px;
+	background: #0fc690;
+	padding: 40px 0px;
+	padding-bottom: 35px;
 }
 
+/* sticky navbar */
 .sticky {
 	position: fixed;
 	top: 0;
 	width: 100%;
 }
 
-.navContainer {
+.sticky + .content {
+	padding-top: 60px;
+}
+
+#navContainer {
 	width: 100%;
 	padding-right: 15px;
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
+	justify-content: center; 
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+#menuBar a {
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+#menuBar a:hover {
+	background-color: #ddd;
+	color: black;
 }
 
-#menuBar {
-}
-
-/* Add a color to the active/current link */
-/* may remove */
-.topnav a.active {
-  background-color: #4caf50;
-  color: white;
+/* Add a color to active/current link */
+#menuBar a.active {
+	background-color: #4caf50;
+	color: white;
 }
 
 img {
@@ -116,14 +122,16 @@ img {
   object-fit: cover;
 }
 .card-container {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 1rem;
-  padding: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1rem;
+	padding: 1rem;
 }
 
-div.pet-care {
+div#pet-care {
 	background: #f4f4f4;
+	width: 100%;
+	height: 100px;
 }
 
 div.titles {
@@ -136,3 +144,4 @@ div.titles {
     width: 210px;
     margin: 0 auto;
 }
+
