@@ -165,3 +165,7 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
+.card-container div {
+  margin: 1rem;
+  padding: 1rem;
+}
