@@ -72,6 +72,21 @@
       "breed": "Rottweiler",
       "sex": "Male"
     }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "",
+      "phone_number": "",
+      "email": "",
+      "questionaire": ""
+    },
+    {
+      "name": "sdfds",
+      "phone_number": "sdfasdf",
+      "email": "asdfsa",
+      "questionaire": "sadfsadfsadf",
+      "id": 2
+    }
   ]
-} 
-
+}
