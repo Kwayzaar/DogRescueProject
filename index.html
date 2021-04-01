@@ -13,7 +13,7 @@
     <header class="header">
       <div class="intro">
         <img src="Img/doggy.jpg" alt="doggy header" class="header-img"/>
-        <h1 class="intro-title">L&&Ls Rescue!</h1>
+        <h1 class="intro-title">L&&L's Rescue</h1>
       </div>
     </header>
     <!-- navigation bar  -->      
@@ -23,28 +23,78 @@
           <a class="active" href="#home">Home</a>         
           <a href="#our-litter">Our Litter</a>
           <a href="#pet-care">Pet Care</a>
-          <a href="#get-involed">Get Involved</a>
+          <a href="#get-involved" #get-involved>Get Involved</a>
           <a href="#contact-us">Contact Us</a>
         </div>          
       </nav>
     </div>
+
       <!-- Content -->
+
       <!-- Our litter section  -->
       <div class="test">
         <div id="our-litter" class="titles">
             <h2>Our Litter</h2>
         </div>
       </div>  
+
       <!-- Dog card section  -->
       <div class="card-container"></div>
+
       <!-- Pet care section  -->
       <div id="pet-care" class="titles">
         <h2>Pet Care</h2>
       </div>
+
       <!-- Get involved section  -->
-      <div id="get-involved" class="titles">        
-          <h2>Get Involved</h2>
-      </div>
+      <div class="volunteer-container">
+        <div id="get-involved" class="titles">        
+          <h2>Volunteering</h2>
+        </div>
+          <div class="volunteer">
+            <p id="vol-words">Thank you for wanting to Volunteer! 
+
+              Can’t foster but want to help? L&&Ls Rescue is looking to put your skills to work to help the animals!                         
+              
+              We are always looking for motivated individuals to help at our adoption events (all volunteers must be at least 16 years old)
+              
+              Do you have a special talent for creating marketing materials? We are looking for design-oriented individuals to create pdf documents for our upcoming events and fundraisers.
+              
+              Maybe you are an experienced event planner? We would love to have folks help to plan, organize, and run our fundraising events.
+              
+              Have a special skill set not listed but you believe you can help L&&Ls to continue moving forward with our mission to save lives? Email us and let us know what you can do to help!             
+              
+          </p>          
+          </div>    
+          <div id="volunteer-form-section">
+             <form id="volunteer-form">
+                <label>Name:</label>
+                <br>
+                <input 
+                type="text" 
+                name="name" 
+                placeholder="Type name here" >
+                <br>
+                <label>Phone Number:</label>
+                <br>
+                <input
+                name="phone-number"
+                placeholder="Phone Number"/>
+                <br>
+                <label>Email:</label>
+                <br>
+                <input
+                name="email"
+                placeholder="Email">
+                <br>
+                <label>Why do you want to volunteer at L&&Ls Rescue?:</label>
+                <input id="questionaire"
+                name="why-do-you-want-to-volunteer"
+                placeholder="Type your answer here">
+<button class="submit-button"type="submit"><strong>Submit</strong></button>
+          </form>
+         </div>    
+        </div>
       <!-- Contact us section  -->
       <div id="contact-us" class="titles">
         <footer>
