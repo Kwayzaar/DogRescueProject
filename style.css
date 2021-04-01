@@ -208,7 +208,7 @@ div.main-container {
 .java-dawg {
   text-align: center;
   font-size: 20px;
-  font-weight: bolder;
+  font-weight: ;
 }
 div#our-litter {
   padding-top: 120px;
@@ -260,7 +260,7 @@ div.titles {
 .linked-names {
   color: black;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   flex-wrap: wrap;
 }
 .linkedin {
