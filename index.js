@@ -1,6 +1,7 @@
 const dawgURL = " http://localhost:3000/dawgs";
 const dawgSection = document.querySelector(".cards");
 const dawgContainer = document.querySelector(".card-container");
+const dawgForm = document.querySelector("volunteer-form");
 fetch(dawgURL)
   .then((response) => response.json())
   .then((dawgArray) => {
@@ -45,3 +46,7 @@ function navStick() {
     navbar.classList.remove("sticky");
   }
 }
+
+dawgForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+});
