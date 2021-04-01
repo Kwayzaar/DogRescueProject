@@ -181,16 +181,22 @@ div#pet-care {
 
 /* Styling volunteer section  */
 div.volunteer-container{
-	height: 500px;
 	align-items: center;
   background: #f4f4f4;
+  display:flex;
 }
 
 div.volunteer {
   width: 50%;
   padding: 25px 10px 20px 30px;
   box-sizing: border-box;
-  
+  display: flex;
+  flex-direction: row; 
+  align-content: flex-start; 
+}
+
+div#vol-body {
+  /* align-content: flex-start; */
 }
 
 p#vol-words {
@@ -213,6 +219,12 @@ li.vol-list-item::before {
   padding-right: 8px;
   color: #4caf50;
 }
+
+/* volunteer form  */
+div#volunteer-form-section {
+
+}
+
 
 /* Footer edits*/
 .linked-names {
