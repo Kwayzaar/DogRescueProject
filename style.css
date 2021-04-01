@@ -173,19 +173,34 @@ div#pet-care {
   height: 100px;
 }
 
+
+/* Styling volunteer section  */
 div.volunteer-container{
 	height: 500px;
 	align-items: center;
 }
 
-.volunteer-container > div {
-	
-}
+
 
 p#vol-words {
 	width: 75%;
 	height:100%;
 	justify-content: center;
+}
+
+ul#volunteer-list {
+  padding: 0;
+  margin: 0;
+}
+
+li.vol-list-item {
+  padding-left: 16px;
+}
+
+li.vol-list-item::before {
+  content: '\2022';
+  padding-right: 8px;
+  color: #4caf50;
 }
 
 /* Footer edits*/
