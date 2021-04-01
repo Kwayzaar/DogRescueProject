@@ -2,6 +2,8 @@ const dawgURL = " http://localhost:3000/dawgs";
 const dawgSection = document.querySelector(".cards");
 const dawgContainer = document.querySelector(".card-container");
 const dawgForm = document.querySelector("#volunteer-form");
+const usersURL = "http://localhost:3000/users";
+
 fetch(dawgURL)
   .then((response) => response.json())
   .then((dawgArray) => {
@@ -54,4 +56,19 @@ dawgForm.addEventListener("submit", (event) => {
   const phoneNumber = formData.get("phone-number");
   const email = formData.get("email");
   const questionaire = formData.get("why-do-you-want-to-volunteer");
+
+  dawgForm.reset();
+
+  fetch(usersURL, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      name: name,
+      phone_number: phoneNumber,
+      email: email,
+      questionaire: questionaire,
+    }),
+  });
 });
