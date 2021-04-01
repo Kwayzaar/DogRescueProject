@@ -20,11 +20,11 @@
     <div class="test">
       <nav id="navContainer">          
         <div id="menuBar">
-          <a class="active" href="#home">Home</a>         
+          <a id="nav-link-first" href="#home">Home</a>
           <a href="#our-litter">Our Litter</a>
           <a href="#pet-care">Pet Care</a>
           <a href="#get-involved" #get-involved>Get Involved</a>
-          <a href="#contact-us">Contact Us</a>
+          <a href="#contact-us" id="nav-link-last">Contact Us</a>
         </div>          
       </nav>
     </div>
@@ -89,6 +89,34 @@
                 If you are interested in helping L&&L please fill out the application on the right and someone will get back to you with more information.
               </p>
             </div>
+            <div id="volunteer-form-section">
+              <form id="volunteer-form">
+                  <label>Name:</label>
+                  <br>
+                  <input 
+                  type="text" 
+                  name="name" 
+                  placeholder="Type name here" >
+                  <br>
+                  <label>Phone Number:</label>
+                  <br>
+                  <input
+                  name="phone-number"
+                  placeholder="Phone Number"/>
+                  <br>
+                  <label>Email:</label>
+                  <br>
+                  <input
+                  name="email"
+                  placeholder="Email">
+                  <br>
+                  <label>Why do you want to volunteer at L&&Ls Rescue?:</label>
+                  <input id="questionaire"
+                  name="why-do-you-want-to-volunteer"
+                  placeholder="Type your answer here">
+                  <button class="submit-button"type="submit"><strong>Submit</strong></button>
+              </form>
+            </div>  
           </div>        
         </div>
       <!-- Contact us section  -->
