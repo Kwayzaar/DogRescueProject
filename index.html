@@ -20,11 +20,11 @@
     <div class="test">
       <nav id="navContainer">          
         <div id="menuBar">
-          <a class="active" href="#home">Home</a>         
+          <a id="nav-link-first" href="#home">Home</a>
           <a href="#our-litter">Our Litter</a>
           <a href="#pet-care">Pet Care</a>
           <a href="#get-involved" #get-involved>Get Involved</a>
-          <a href="#contact-us">Contact Us</a>
+          <a href="#contact-us" id="nav-link-last">Contact Us</a>
         </div>          
       </nav>
     </div>
@@ -47,53 +47,77 @@
       </div>
 
       <!-- Get involved section  -->
+      <div id="get-involved" class="titles">        
+        <h2>Volunteering</h2>
+      </div>
       <div class="volunteer-container">
-        <div id="get-involved" class="titles">        
-          <h2>Volunteering</h2>
-        </div>
           <div class="volunteer">
-            <p id="vol-words">Thank you for wanting to Volunteer! 
-
-              Can’t foster but want to help? L&&Ls Rescue is looking to put your skills to work to help the animals!                         
-              
-              We are always looking for motivated individuals to help at our adoption events (all volunteers must be at least 16 years old)
-              
-              Do you have a special talent for creating marketing materials? We are looking for design-oriented individuals to create pdf documents for our upcoming events and fundraisers.
-              
-              Maybe you are an experienced event planner? We would love to have folks help to plan, organize, and run our fundraising events.
-              
-              Have a special skill set not listed but you believe you can help L&&Ls to continue moving forward with our mission to save lives? Email us and let us know what you can do to help!             
-              
-          </p>          
-          </div>    
-          <div id="volunteer-form-section">
-             <form id="volunteer-form">
-                <label>Name:</label>
-                <br>
-                <input 
-                type="text" 
-                name="name" 
-                placeholder="Type name here" >
-                <br>
-                <label>Phone Number:</label>
-                <br>
-                <input
-                name="phone-number"
-                placeholder="Phone Number"/>
-                <br>
-                <label>Email:</label>
-                <br>
-                <input
-                name="email"
-                placeholder="Email">
-                <br>
-                <label>Why do you want to volunteer at L&&Ls Rescue?:</label>
-                <input id="questionaire"
-                name="why-do-you-want-to-volunteer"
-                placeholder="Type your answer here">
-<button class="submit-button"type="submit">Submit</button>
-          </form>
-         </div>    
+            <div id="vol-body">
+              <p>
+                Thank you for wanting to Volunteer!
+              </p>
+              <p>
+                Want to help? L&&L is looking to put your skills to work to help the animals!
+              </p>
+              <ul id="volunteer-list">
+                <li class="vol-list-item">
+                  We are always looking for motivated individuals to help at our adoption events (all volunteers must be at least 16 years old)
+                </li>
+                <li class="vol-list-item">
+                  Do you have a special talent for creating marketing materials? We are looking for design-oriented individuals to create pdf documents for our upcoming events and fundraisers.
+                </li>
+                <li class="vol-list-item">
+                  Maybe you are an experienced event planner? We would love to have folks help to plan, organize, and run our fundraising events.
+                </li>
+                <li class="vol-list-item">
+                  Have a special skill set not listed but you believe you can help RMPR to continue moving forward with our mission to save lives? Email us and let us know what you can do to help!
+                </li>
+              </ul>
+              <p>
+                CHECK OUT OUR EVENTS CALENDAR TO SEE WHERE WE WILL BE NEXT!
+              </p>
+              <p>
+                Other ways to help:
+              </p>
+              <p>
+                We are always in need of fundraising help, and community outreach programs. If you have experience and would like to help L&&L please email us at LLRescue@LLrescue.org with the subject line FUNDRAISING HELP.
+              </p>
+              <p>
+                If interested in volunteering, you must commit to 4 hours per week and be at least 16 years of age. You must sign a volunteer release prior to helping. At this time, we are accepting community service candidates on a limited basis.
+              </p>
+              <p>
+                If you are interested in helping L&&L please fill out the application on the right and someone will get back to you with more information.
+              </p>
+            </div>
+            <div id="volunteer-form-section">
+              <form id="volunteer-form">
+                  <label>Name:</label>
+                  <br>
+                  <input 
+                  type="text" 
+                  name="name" 
+                  placeholder="Type name here" >
+                  <br>
+                  <label>Phone Number:</label>
+                  <br>
+                  <input
+                  name="phone-number"
+                  placeholder="Phone Number"/>
+                  <br>
+                  <label>Email:</label>
+                  <br>
+                  <input
+                  name="email"
+                  placeholder="Email">
+                  <br>
+                  <label>Why do you want to volunteer at L&&Ls Rescue?:</label>
+                  <input id="questionaire"
+                  name="why-do-you-want-to-volunteer"
+                  placeholder="Type your answer here">
+                  <button class="submit-button"type="submit"><strong>Submit</strong></button>
+              </form>
+            </div>  
+          </div>        
         </div>
       <!-- Contact us section  -->
       <div id="contact-us" class="titles">
