@@ -160,6 +160,7 @@ img {
   flex-flow: row wrap;
   margin: 1rem;
   padding: 1rem;
+  justify-content: center;
 }
 
 .card-container div {
