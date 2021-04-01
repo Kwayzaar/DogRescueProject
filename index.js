@@ -1,7 +1,6 @@
 const dawgURL = " http://localhost:3000/dawgs";
 const dawgSection = document.querySelector(".cards");
 const dawgContainer = document.querySelector(".card-container");
-
 fetch(dawgURL)
   .then((response) => response.json())
   .then((dawgArray) => {
