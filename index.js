@@ -45,9 +45,3 @@ function navStick() {
     navbar.classList.remove("sticky");
   }
 }
-
-// .java-dawg {
-//   text-align: center;
-//   font-size: 20px;
-//   font-weight: bolder;
-// }
