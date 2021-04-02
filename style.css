@@ -76,6 +76,7 @@ body#main-layout {
 }
 /* Styling section titles */
 div.titles {
+  font-family: fantasy;
   padding-bottom: 6px;
   font-size: 40px;
   font-weight: bold;
@@ -95,17 +96,22 @@ div.titles {
 /* Header styling */
 .intro {
   max-width: 100%;
-  height: 350px;
+  height: 500px;
   background-image: url("Img/doggy.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+h1.intro-title {
+  font-family: fantasy;
+  font-size: 5em;
+}
+
 div.test {
   display: flex;
-  flex-direction: column;
-  align-content: center;
+  flex-direction: row;
+  justify-content: center;
 }
 
 div.extra {
@@ -142,6 +148,7 @@ div.main-container {
 }
 /* Style the links inside the navigation bar */
 #menuBar a {
+  font-family: fantasy;
   color: #f2f2f2;
   text-align: center;
   padding: 12px 25px;
@@ -176,8 +183,9 @@ a#nav-link-last {
 }
 
 div#our-litter {
-  padding-top: 120px;
+  padding-top: 100px;
 }
+
 img {
   height: 300px;
   width: 300px;
@@ -198,6 +206,10 @@ img {
 .pet-care-list {
   font-size: 18px;
   color: black;
+}
+
+#hover1 a:hover, #hover2 a:hover, #hover3 a:hover{
+  color: #005A9C;
 }
 
 div.pet-care-container {

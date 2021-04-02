@@ -1,16 +1,16 @@
+//Populating dog data
 const dawgURL = " http://localhost:3000/dawgs";
+
 const dawgSection = document.querySelector(".cards");
 const dawgContainer = document.querySelector(".card-container");
-const dawgForm = document.querySelector("#volunteer-form");
-const usersURL = "http://localhost:3000/users";
 
 fetch(dawgURL)
   .then((response) => response.json())
   .then((dawgArray) => {
     dawgArray.forEach((dawgs) => {
-      const dawgCard = document.createElement("div"); //makes dog card
+      const dawgCard = document.createElement("div");
 
-      const dawgName = document.createElement("h3"); //makes header for name
+      const dawgName = document.createElement("h3"); 
       dawgName.textContent = dawgs.name;
       dawgName.setAttribute("class", "java-dawg");
 
@@ -48,6 +48,10 @@ function navStick() {
     navbar.classList.remove("sticky");
   }
 }
+
+//Capturing volunteer form data
+const usersURL = "http://localhost:3000/users";
+const dawgForm = document.querySelector("#volunteer-form");
 
 dawgForm.addEventListener("submit", (event) => {
   event.preventDefault();
