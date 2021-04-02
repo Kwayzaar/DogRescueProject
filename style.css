@@ -102,6 +102,12 @@ div.titles {
   background-size: cover;
 }
 
+div.test {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
 div.extra {
   padding-top: 15px;
   margin-top: 15px;
