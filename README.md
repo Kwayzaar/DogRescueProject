@@ -1,5 +1,5 @@
 ## General Info 
-* [Setup] (#setup)
+* [Setup](#setup)
 
 
 ## Setup
