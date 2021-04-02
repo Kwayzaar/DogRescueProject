@@ -256,6 +256,10 @@ img {
   padding: 1rem;
 }
 /* styling pet care section  */
+.pet-care-list {
+  font-size: 18px;
+  color: black;
+}
 div#pet-care {
   background: #f4f4f4;
   width: 100%;
