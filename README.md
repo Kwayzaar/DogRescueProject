@@ -15,6 +15,13 @@ json-server --watch db.json
 lite-server
 ```
 
+## Features 
+* Navbar sticks to top of page on scroll
+* Jump links in navbar
+* Dog data is pulled from database
+* Working links in Pet Care
+* Volunteer form stores submitted data
+
 ## Code Examples
 ```
 // Sticky Navbar
@@ -56,10 +63,3 @@ dawgForm.addEventListener("submit", (event) => {
   });
 });
 ```
-
-## Features 
-* Navbar sticks to top of page on scroll
-* Jump links in navbar
-* Dog data is pulled from database
-* Working links in Pet Care
-* Volunteer form stores submitted data
