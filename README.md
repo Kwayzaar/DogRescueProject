@@ -1,1 +1,5 @@
-## Geneal Info 
+## General Info 
+* [Setup] (#setup)
+
+
+## Setup
