@@ -262,6 +262,31 @@ div#pet-care {
   height: 100px;
 }
 
+div.pet-care-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+.pet-care-images {
+  display: flex;
+  flex-grow: 0.5;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#training-image,
+#shop-image,
+#vet-image {
+  height: 400px;
+  width: 400px;
+}
+.pet-care-headers {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
 /* Styling volunteer section  */
 div.volunteer-container {
   align-items: center;
