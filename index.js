@@ -48,7 +48,7 @@ function navStick() {
     navbar.classList.remove("sticky");
   }
 }
-
+// Volunteer Form
 dawgForm.addEventListener("submit", (event) => {
   event.preventDefault();
   const formData = new FormData(event.target);
@@ -58,6 +58,10 @@ dawgForm.addEventListener("submit", (event) => {
   const questionaire = formData.get("why-do-you-want-to-volunteer");
 
   dawgForm.reset();
+  console.log("Name:", name);
+  console.log("Phone Number:", phoneNumber);
+  console.log("Email:", email);
+  console.log("Questionaire:", questionaire);
 
   fetch(usersURL, {
     method: "POST",
